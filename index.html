@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <!--M E N U    E N C A B E Z A D O-->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="docs/Linea del tiempo Laboral.pdf" target="_blank" title="Línea del tiempo" rel="noopener"><p>Eduardo</p></a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" title="Inicio" rel="noopener" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" title="Sobre mi" rel="noopener" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" title="Habilidades" rel="noopener" onclick="seleccionar()">HABILIDADES</a></li>
+            <li><a href="#curriculum" title="Curriculum" rel="noopener" onclick="seleccionar()">CURRICULUM</a></li>
+            <li><a href="#portfolio" title="Portfolio" rel="noopener" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" title="Contacto" rel="noopener" onclick="seleccionar()">CONTACTO</a></li>
+            <li><a href="https://www.kaggle.com/" target="_blank" title="Contacto" rel="noopener" onclick="seleccionar()">KAGGLE</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars" title="Modo Responsive"></i>
+        </div>
+      </header>
+    </div>
+
+    <!--S E C C I O N    I N I C I O-->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <a href="docs/TECNO-TITULOS.pdf" target="_blank" title="Tecno títulos" rel="noopener"><img src="imagenes/yo/yo-01.jpg" alt=""></a>
+        </div>
+        <h1 id="titulo">EDUARDO MARTINEZ</h1>
+        <h2 id="titulo2">Desarrollador Python - Analista de datos</h2>
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/eduardo-martinez-martin" target="_blank" title="LinkedIn" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.github.com/dashboard" target="_blank" title="GitHub" rel="noopener"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/emartinezmartin/" target="_blank" title="Facebook" rel="noopener"><i class="fa-solid fa-rss"></i></a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!--S E C C I O N    S O B R E   M I-->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p><span>Hola, soy Eduardo Martínez:</span><br>
+        <br>
+        Aunque no soy Ingeniero informático o de Telecomunicaciones ni nada parecido ya que soy <a href ="docs/Presentacion_Eduardo.pdf" 
+        target="_blank" title="Presentación personal de mi labor en el ámbito educativo" rel="noopener">Profesor (vocacional)</a>, y según dicen mis 
+        alumnos...de los "buenos", porque soy distinto, mis clases son motivadoras, les escucho, me preocupo por ellos y me pongo en su
+        lugar, etc, el mundo tecnológico en el que llevo inmerso muchos años, me apasiona tanto o más que el educativo.<br> 
+        <br>
+        Desgraciadamente, como el sistema educativo que tenemos no es lo que me gusta para mis alumnos y, no se puede cambiar el sistema,
+        o al menos eso es lo que dicen, CAMBIO YO.<br>
+        Y en esas estamos, en un cambio profundo, intenso, a veces "doloroso", otras "desafiante", también "decepcionante" (porqué no decirlo),
+        a menudo "resiliente" pero siempre elegido, confiado de mis posiblidades, capacidades, aptitudes y con la ilusión de un niño con
+        zapatos nuevos, o como me dicen las familias de mis alumnos...un niño/a con ganas de venir a mis clases.<br>
+        <br>
+        Vaya "chapa" que estoy soltando (yo lo llamo "de-formación profesional") pero la verdad... me importa poco si con esto consigo el
+        objetivo de que la gente lea un poco, ya que hace mucha falta. En cuanto a la comprensión lectora o la capacidad crítica, mejor ni
+        hablamos y mucho menos vamos a entrar a "debatir" la "comprensión entre líneas".<br>
+        <br>
+        En fin que enrollo... para que se hagan una idea un poco más concisa sobre mi, ya que lo mejor SIEMPRE es un cara a cara, puedo decir que:<br>
+        <br>
+        Llevo más de 25 años en el sector de la enseñanza como profesor de Educación física, inglés, generalista... tanto para Primaria como 
+        para Secundaria, Bachillerato y adultos, ya que soy Diplomado y Licenciado en Ciencias de la Actividad física y el deporte (INEF),
+        por las Universidades Autónoma, Complutense y La Salle de Madrid, además de tener otras <a href="docs\TITULO INSTITUTO CERVANTES.pdf" 
+        target="_blank" title="Título de español para extranjeros del Instituto Cervantes" rel="noopener">titulaciones.<br></a>
+        <br>
+        Una de mis grandes pasiones, además del deporte es viajar, hasta el punto que en el año 2008 me fui a dar 
+        <a href="imagenes/vuelta-al-mundo/mapa_mundi_3D.webp" target="_blank" title="Mapa de la vuelta al mundo" rel="noopener">
+        una vuelta al mundo</a> durante casi un año, visitando escuelas en los países porlos que pasaba (más de 35 países) y
+        viendo y aprendiendo, cómo se enseña en otros países. Fue una experiencia tan enriquecedora a nivel personal y 
+        profesional, que cambió mi vida completamente.<br>
+        <br>
+        Además de tener mucha formación y muchos años de experiencia, tengo la suficiente humildad como para saber que en este ámbito tecnológico
+        tan rápido y cambiante, soy "Junior" y como tal me presento para que cualquier empresa apueste por mi.<br>
+        <br>
+        <br>
+        ¿Y porqué deberían apostar por mi? Simplemente porque creo que puedo aportar mucho desde mis "experiencias de vida".<br>
+        <br>
+        <br>
+        Siempre estoy predispuesto a aprender nuevos conceptos, metodologías (p ej: Agile o Scrum, muy de "moda" últimamente), contenidos,
+        experiencias, formas de mejorar y reciclar tanto mi formación como mis conocimientos, etc.<br>
+        <br>
+        He sido responsable de distintos Departamentos (educación física, TIC, inglés, primaria, etc) de colegios en los que he trabajado.<br>
+        <br>
+        Soy profesor de Inglés, titulado con C1 (Advanced Level), B2 y B1 (First Level) por <a href="docs/B1, B2 and C1.pdf" 
+        target="_blank" title="Títulos oficiales de inglés niveles inical, intermedio y avanzado" rel="noopener">Cambridge y
+        Oxford.<br></a>
+        <br>
+        Entrenador de Musculación (de sala) titulado por la Federación Internacional de Fisicoculturismo y Fitness.<br>
+        <br>
+        Llevo casi 25 años trabajando como masajista y osteópata (especializado en personas con discapacidad y fisicoculturistas) además
+        de Nutricionista deportivo.<br>
+        <br>
+        Preparador físico de equipos deportivos (sobre todo fútbol).<br>
+        <br>
+        He tenido mi propia empresa de masajes y nutrición <a href="imagenes/logo.jpg" target="_blank" 
+        title="Mi empresa de masajes y nutrición" rel="noopener">('Your Time').<br></a>
+        <br>
+        Aunque hasta aquí aparentemente, toda mi formación y todo mi bagaje "profesional-laboral" no tiene mucho que ver
+        con la Ciberseguridad, la Tecnología Blockchain, el Desarrollo Web, el Análisis de Datos u otras muchas profesiones
+        que puedan estar relacionadas con las tecnologías actuales, todos estos ámbitos me han servido para varias cosas,
+        entre las que particularmente destaco tres:<br>
+        - el saber trabajar en equipo (muy en auge actualmente por ejemplo en la metodología Agile),<br>
+        - la escucha activa y<br> 
+        - la empatía (saber ponerse en el lugar del otro) cosa que se está perdiendo a pasos agigantados.<br>
+        <br>
+        Realicé un Bootcamp de Ciberseguridad, ya que desde siempre me ha apasionado la tecnología, además de haberla llevado
+        a la práctica en la mayoría de los centros escolares en los que he trabajado.<br>
+        <br>
+        También, he seguido formándome en ese ámbito, consiguiendo titulaciones de FORTINET, TELEFÓNICA, CISCO, INCIBE, ATRIUM,
+        PYTHON INSTITUTE, FREECODECAMP, entre otros.<br>
+        <br>
+        <br>
+        <a href="imagenes\logo-grupo-atrium250.png" target="_blank" title="Centro de estudios GRUPO ATRIUM" rel="noopener">
+        ACTUALMENTE</a>
+        me encuentro terminando (me quedan sólo las 300 h de prácticas finales en empresa real) un MÁSTER de experto en
+        programación y desarrollo Python, Análisis y visualización de datos, Machine Learning e Inteligencia Artificial.<br>
+        <br>
+        <br>
+        En fin, que no quiero robarle más tiempo a nadie y agradezco a todo el mundo que lea mi perfil.<br>
+        <br>
+        Estaría encantado de poder tener una entrevista con alguna empresa que apueste por mi y los valores que puedo aportar,
+        ya que estoy seguro que puedo aportar muchas cosas.<br>
+        <br>
+        Muchas gracias y nos vemos por las redes "tecnológicas".<br>
+        <br>
+        P.D. Me he dado una vuelta al mundo y estoy preparando otra por si alguien quiere apuntarse.<br></p>
+        <br>
+        <br>
+        <br>
+        <div class="fila">
+          <!--DATOS PERSONALES-->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                11 de marzo</li>
+              <li>
+                <strong>Teléfono</strong>
+                +34 669 118 771</li>
+              <li>
+                <strong>Email</strong>
+                mmeduardomartinez@gmail.com</li>
+              <li>
+                <strong>Habilidad principal</strong>
+                Persistencia.</li>
+              <li>
+                <strong>Cargo</strong>
+                Profesor & CEO.</li>
+            </ul>
+          </div>
+
+          <!--INTERESES-->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <a href="https://www.cadena100.es/musica" target="_blank" rel="noopener"><i class="fa-solid fa-headphones" title="Música"></i></a>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <a href="https://www.lavueltaalmundo.net/" target="_blank" rel="noopener"><i class="fa-solid fa-plane" title="Viajes"></i></a>
+                <span>VIAJES</span>
+              </div>
+              <div class="interes">
+                <a href="https://www.youtube.com/watch?v=YS-lrN-10-E/" target="_blank" rel="noopener"><i class="fa-solid fa-laptop" title="Tecnología"></i></a>
+                <span>TECNOLOGÍA</span>
+              </div>
+              <div class="interes">
+                <a href="docs/MIS IMPERDIBLOS.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-book-open-reader" title="Mis libros imprescindibles"></i></a>
+                <span>LIBROS</span>
+              </div>
+              <div class="interes">
+                <a href="https://www.youtube.com/watch?v=R5z5tiKtTs8/" target="_blank" rel="noopener"><i class="fa-solid fa-bowl-food" title="Cocina y Nutrición"></i></a>
+                <span>COCINA & NUTRICIÓN</span>
+                </div>
+              <div class="interes">
+                <a href="https://www.youtube.com/watch?v=lbwK7kLjm4Y" target="_blank" rel="noopener"><i class="fa-brands fa-ethereum" title="Blockchain"></i></a>
+                <span>BLOCKCHAIN</span>
+                </div>
+              <div class="interes">
+                <a href="https://pluto.tv/es/live-tv/5f1ac8588734f8000823b7de?utm_source=google&utm_medium=textsearch&utm_campaign=11303960303&utm_content=142671312417&utm_term=canal+de+deportes&utm_creative=643145799103&device=c&campaign=ES_Google_Search_Acquisition_Web_ContentCategory&gad_source=2&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJSY1shavYO3uIWwHl-wRKI5773s7HHxZAOW9DxvedD3a-Ymd3pel9xoCZdkQAvD_BwE" target="_blank" rel="noopener"><i class="fa-solid fa-person-running" title="Deportes TV"></i></a>
+                <span>DEPORTES</span>
+                </div>
+              <div class="interes">
+                <a href="https://www.youtube.com/@JimKwik" target="_blank" rel="noopener"><i class="fa-solid fa-user-graduate" title="Educación"></i></a>
+                <span>EDUCACIÓN</span>
+                </div>
+              <div class="interes">
+                <a href="docs/MANUAL-EDUCACION-FINANCIERA.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-sack-dollar" title="Mis Finanzas"></i></a>
+                <span>FINANZAS</span>
+                </div>
+                <div class="interes">
+                  <a href="https://www.youtube.com/@AlexCrockford" target="_blank" rel="noopener"><i class="fa-regular fa-heart" title="Entrenamientos y Salud"></i></a>
+                  <span>ENTRENOS & SALUD</span>
+                  </div>
+                <div class="interes">
+                  <a href="https://www.youtube.com/@kirameturismo" target="_blank" rel="noopener"><i class="fa-solid fa-mountain-sun" title="Naturaleza"></i></a>
+                  <span>NATURALEZA</span>
+                  </div>
+                <div class="interes">
+                  <a href="https://www.youtube.com/@memoflores74" target="_blank" rel="noopener"><i class="fa-solid fa-camera" title="Fotografía"></i></a>
+                  <span>FOTOGRAFÍA</span>
+                  </div>
+
+          </div>
+        </div>
+      </div>
+      <button>
+        <a href="docs/CV + CV TECNO-2024.pdf" target="_blank" rel="noopener">Descargar CV <i class="fa-solid fa-download"></i></a>
+        <span class="overlay"></span>
+      </button>
+    </div>
+    </section>
+
+    <!--S E C C I O N   H A B I L I D A D E S-->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!--HABILIDADES TECNOLOGICAS y PROFESIONALES-->
+          <div class="col">
+            <h3>Habilidades Tecnológicas</h3>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill javascript">
+                <div class="progreso">
+                  <span>5 Años</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill htmlcss">
+                <div class="progreso">
+                  <span>12</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Photoshop</span>
+              <div class="barra-skill photoshop">
+                <div class="progreso">
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Wordpress</span>
+              <div class="barra-skill wordpress">
+                <div class="progreso">
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="barra-skill python">
+                <div class="progreso">
+                  <span>3</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- HABILIDADES PROFESIONALES-->
+          <div class="col">
+            <h3>Habilidades Profesionales</h3>
+            <div class="skill">
+              <span>Trabajo en equipo</span>
+              <div class="barra-skill trabajo">
+                <div class="progreso">
+                  <span>Alto nivel</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Comunicación & Empatía</span>
+              <div class="barra-skill comunicacion">
+                <div class="progreso">
+                  <span>Alto nivel</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill dedicacion">
+                <div class="progreso">
+                  <span>Alto nivel</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill creatividad">
+                <div class="progreso">
+                  <span>Medio nivel</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Adaptabilidad</span>
+              <div class="barra-skill adaptabilidad">
+                <div class="progreso">
+                  <span>Alto nivel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--S E C C I O N   C U R R I C U L U M-->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Formación Académica.</h4>
+              <span class="casa">Universidad Autónoma de Madrid</span>
+              <span class="fecha">2003 - 2005</span>
+              <p>Licenciado en Ciencias de la Actividad física y el deporte (INEF).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación Académica.</h4>
+              <span class="casa">Universidad Complutense de Madrid (CES D. Bosco).</span>
+              <span class="fecha">2000 - 2003</span>
+              <p>Diplomatura de Magisterio (especialidad Primaria y Educación Física).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación Académica.</h4>
+              <span class="casa"> Universidad Autónoma de Madrid (Centro de Estudios Superiores La Salle).</span>
+              <span class="fecha">2005 - 2007</span>
+              <p>Diplomatura de Magisterio (especialidad lengua extranjera: Inglés).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación Académica.</h4>
+              <span class="casa">British Council (Madrid).</span>
+              <span class="fecha">2015 - 2015</span>
+              <p>Advanced English Diploma C1 Level.</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación Académica.</h4>
+              <span class="casa">British Council (Madrid).</span>
+              <span class="fecha">2015 - 2015</span>
+              <p>First English Diploma B2 Level.</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación Académica.</h4>
+              <span class="casa">British Council (Madrid).</span>
+              <span class="fecha">2012 - 2012</span>
+              <p>First English Diploma B1 Level.</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">IBM Academy y Bejob.</span>
+              <span class="fecha">2024 - Hoy</span>
+              <p>Curso Experto en Python Full Stack (50h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">ATRIUM.</span>
+              <span class="fecha">2023 - 2024</span>
+              <p>Máster en Análisis y visualización de datos, Machine Learning, Inteligencia Artificial y experto en programación y desarrollo Python (500h) + prácticas presenciales (300h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">The Bridge (Digital Talent Accelerator).</span>
+              <span class="fecha">2022 - 2023</span>
+              <p>BOOTCAMP de Ciberseguridad (+ de 1.000h prácticas). </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">SEPE.</span>
+              <span class="fecha">2022 - 2022</span>
+              <p>Curso Inteligencia Artificial aplicada a la empresa (250h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">CEOE (Confederación Española de Organizaciones Empresariales).</span>
+              <span class="fecha">2024 - 2024</span>
+              <p>Curso Digitalización Aplicada al Sector Productivo (50h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">INCIBE.</span>
+              <span class="fecha">2023 - 2023</span>
+              <p>Curso Básico Técnico de Ciberseguridad (250h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">FREECODECAMP.</span>
+              <span class="fecha">2023 - 2023</span>
+              <p>Curso Responsive Web Design Developer (300h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">CISCO.</span>
+              <span class="fecha">2023 - 2023</span>
+              <p>Curso CISCO Ciberseguridad (186h).</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">FORTINET.</span>
+              <span class="fecha">2023 - 2023</span>
+              <p>Curso FORTINET(100H) NETWORK SECURITY (NSE1- NSE2 y NSE3).<br>
+                Y mucha MÁS FORMACIÓN que podrá comprobar a través de mi CV tecnológico.</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Formación TECNOLÓGICA.</h4>
+              <span class="casa">VARIOS (IBM ACADEMY, CISCO, FREECODECAMP, INCIBE, PYTHON INSTITUTE, FORTINET, TELEFÓNICA...).</span>
+              <span class="fecha">2022 - 2024</span>
+              <p>Y muchas MÁS TITULACIONES que podrá comprobar a través de mi CV tecnológico.</p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+                  </div>
+                </div>
+              </div>
+
+          <div class="col derecha">
+            <h3>Experiencia laboral</h3>
+            <div class="item der">
+              <h4>Masajista y osteópata</h4>
+              <span class="casa">"Your Time".</span>
+              <span class="fecha">2000 - Hoy</span>
+              <p>Freelance o autónomo y CEO de mi propia empresa.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Entrenador personal.</h4>
+              <span class="casa">"Your Time".</span>
+              <span class="fecha">2000 - Hoy</span>
+              <p>Freelance o autónomo y CEO de mi propia empresa.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Operador de Ordenadores.</h4>
+              <span class="casa">Bornan Sport S.L.</span>
+              <span class="fecha">2023 - 2023</span>
+              <p>Operador y Administrador de ordenadores en el vento deportivo: "Juegos Panamericanos y del Caribe 2023".</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Colegio Nuestra Señora de la Merced (Madrid).</span>
+              <span class="fecha">2022 - 2022</span>
+              <p>Profesor generalista y tutor de 5º de primaria.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Colegio Inmaculada Concepcionista (Madrid).</span>
+              <span class="fecha">2022 - 2022</span>
+              <p>Profesor especialista de inglés, educación artística, religión y educación física para todos los cursos de Primaria (de 1º a 6º).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Colegio Nuestra señora de Moratalaz (Madrid).</span>
+              <span class="fecha">2021 - 2022</span>
+              <p>Profesor generalista y tutor de 2º de primaria.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Colegio Gaudem (Madrid).</span>
+              <span class="fecha">2020 - 2021</span>
+              <p>Tutor y profesor especialista de educación física e inglés, para el tercer ciclo de Secundaria (3º y 4º de ESO). </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Colegio Parque (Madrid).</span>
+              <span class="fecha">2019 - 2020</span>
+              <p>Profesor y tutor de 6º de primaria.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Preparador físico y recuperador deportivo.</h4>
+              <span class="casa">C.F. UNAMI.</span>
+              <span class="fecha">2019 - 2020</span>
+              <p>Preparador físico, masajista-osteópata y recuperador deportivo (autónomo) del equipo de fútbol amateur "Unami C.F.".</p>
+              <div class="conectord"> 
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Colegio Escolapios (Madrid).</span>
+              <span class="fecha">2017 - 2019</span>
+              <p>Profesor especialista y tutor de 1º de primaria impartiendo las siguientes asignaturas: Educación física, Religión y Artes plásticas (en inglés).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+            <h4>Preparador físico y recuperador deportivo.</h4>
+              <span class="casa">La Granja C.F.</span>
+              <span class="fecha">2018 - 2018</span>
+              <p>Preparador físico, masajista-osteópata y recuperador deportivo
+                (autónomo) del equipo de fútbol amateur La Granja C.F.(3ª División).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Asesor financiero.</h4>
+              <span class="casa">OVB España (Madrid).</span>
+              <span class="fecha">2018 - 2018</span>
+              <p>Consejero financiero en OVB.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Agente inmobiliario.</h4>
+              <span class="casa">REMAX España (Madrid).</span>
+              <span class="fecha">2017 - 2018</span>
+              <p> Gestor y Asesor inmobiliario en empresa Remax.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+              </div>
+            <div class="item der">
+              <h4>Preparador físico y recuperador deportivo.</h4>
+              <span class="casa">Rioseco C.F.</span>
+              <span class="fecha">2017 - 2018</span>
+              <p>Preparador físico y recuperador deportivo (osteópata) del equipo de fútbol amateur-aficionado, Rioseco C.F. de Medina de Rioseco (Valladolid).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+
+            <div class="item der">
+              <h4>Agente de seguros.</h4>
+              <span class="casa">Santa Lucía S.L. (Madrid).</span>
+              <span class="fecha">2017 - 2017</span>
+              <p>Agente de seguros en empresa aseguradora Santa Lucía.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Profesor.</h4>
+              <span class="casa">Trinity College (Madrid).</span>
+              <span class="fecha">2016 - 2017</span>
+              <p>Profesor especialista de educación física e inglés y tutor del primer ciclo de secundaria (1º y 2º ESO).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Maestro.</h4>
+              <span class="casa">Colegio Marista Nuestra Señora de la Fuencisla (Segovia).</span>
+              <span class="fecha">2009 - 2014</span>
+              <p>Maestro especialista de educación física e inglés y tutor de 3º de primaria.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Director y Supervisor.</h4>
+              <span class="casa">Empresa farmacéutica MSD (Madrid).</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>Dirección y supervisión del gimnasio de la empresa farmacéutica MSD (ENTRENADOR PERSONAL).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Maestro y Responsable TIC.</h4>
+              <span class="casa">Colegio San Vicente de Paúl (Madrid).</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>Maestro generalista, Responsable TIC y tutor de 4º de primaria.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Monitor.</h4>
+              <span class="casa">Colegio Beata Filipina (Madrid).</span>
+              <span class="fecha">2004 - 2004</span>
+              <p>Monitor de Actividades extraescolares.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Monitor.</h4>
+              <span class="casa">Colegio Parque Lisboa (Madrid).</span>
+              <span class="fecha">2003 - 2003</span>
+              <p>Monitor de Actividades extraescolares.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Voluntario.</h4>
+              <span class="casa">ADECCO (Madrid).</span>
+              <span class="fecha">2003 - 2003</span>
+              <p>Voluntario en los I Juegos Olímpicos Empresariales, organizados por Adecco.</p>
+              <div class="conectord"> 
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Monitor.</h4>
+              <span class="casa">Colegio Cristo Rey (Madrid).</span>
+              <span class="fecha">2001 - 2003</span>
+              <p>Monitor de Actividades extraescolares.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+            <h4>Profesor de Psicomotricidad.</h4>
+              <span class="casa">Instituto de Psicopediatría (Madrid).</span>
+              <span class="fecha">2001 - 2004</span>
+              <p>Profesor de Psicomotricidad para personas con discapacidad, en el Centro de día del Instituto de Psicopediatría (IPP).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Coordinador.</h4>
+              <span class="casa">Instituto de Psicopediatría (Madrid).</span>
+              <span class="fecha">2001 - 2004</span>
+              <p>Coordinador de actividades acuáticas para personas con
+                discapacidad en el Instituto de Psicopediatría (IPP).</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Masajista y osteópata.</h4>
+              <span class="casa">Centro de estética "Chelo Candenas"(Madrid).</span>
+              <span class="fecha">2001 - 2002</span>
+              <p> Gestor y Asesor inmobiliario en empresa Remax.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+              </div>
+            <div class="item der">
+              <h4>Encuadernador.</h4>
+              <span class="casa">Sánchez-Álamo Artesanos S.L. (Madrid).</span>
+              <span class="fecha">1996 - 2000</span>
+              <p>Encuadernador en empresa Sánchez-Álamo Artesanos.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Pescadero.</h4>
+              <span class="casa">Pescaderías Pepe Grupo JOEMA (Madrid).</span>
+              <span class="fecha">1992 - 1995</span>
+              <p>Pescadero en centro comercial La Vaguada. </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Conserje.</h4>
+              <span class="casa">Conserje en Urbanización privada (Madrid).</span>
+              <span class="fecha">1985 - 2012</span>
+              <p> Conserje en urbanización Euronorte.</p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--S E C C I O N   P O R T F O L I O-->
+    <section id="portfolio" class="portfolio">
+      <class="contenido-seccion">
+        <h2>PORTFOLIO.<br>Mi evolución tecnológica a través de los proyectos</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="imagenes/proyectos/01_aplicacion_fotos_gatos.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/01-CODIGO-CONSTRUYENDO-APLICACION-FOTOS-GATOS.pdf" target="_blank" title="Código Proyecto-01-Aplicación fotos de gatos" rel="noopener"><p>Código Proyecto-01-Aplicación fotos de gatos</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/02_menu_cafeteria.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/02-CODIGO-CONSTRUYENDO-MENU-CAFETERIA.pdf" target="_blank" title="Código Proyecto-02-Menú cafetería" rel="noopener"><p>Código Proyecto-02-Menú cafetería</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/03_registration_formulario.png" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo</h3>
+              <a href="docs/03-CODIGO-FORMULARIO-REGISTRO.pdf" target="_blank" title="Código Proyecto-03-Formulario de registro" rel="noopener"><p>Código Proyecto-03-Formulario de registro</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/04_formulario_de_encuesta.png" alt="">
+            <div class="overlay">
+              <h3>Diseño Freecodecamp</h3>
+              <a href="docs/04-CODIGO-ENCUESTA.pdf" target="_blank" title="Código Proyecto-04-Formulario de encuesta" rel="noopener"><p>Código Proyecto-04-Formulario de encuesta</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/05_flexbox_photo_gallery.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs\05-CODIGO-GALERIA-FOTOS-USANDO-FLEXBOX.pdf" target="_blank" title="Código Proyecto-05-Galería de fotos con Flexbox" rel="noopener"><p>Código Proyecto-05-Galería de fotos con Flexbox</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/06_etiqueta_de_nutricion.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/06-CODIGO-ETIQUETA-NUTRICION.pdf" target="_blank" title="Código Proyecto-06-Etiqueta nutrición" rel="noopener"><p>Código Proyecto-06-Etiqueta nutrición</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/07_cuestionario_accesibilidad.png" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo</h3>
+              <a href="docs/07-CODIGO-CUESTIONARIO-ACCESIBILIDAD.pdf" target="_blank" title="Código Proyecto-07-Cuestionario de accesibilidad" rel="noopener"><p>Código Proyecto-07-Cuestionario de accesibilidad</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/08_tribute_page.png" alt="">
+            <div class="overlay">
+              <h3>Diseño Freecodecamp</h3>
+              <a href="docs/08-CODIGO-TRIBUTE-PAGE.pdf" target="_blank" title="Código Proyecto-08-Tribute page" rel="noopener"><p>Código Proyecto-08-Tribute page</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/09_balance_sheet.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/09-CODIGO-BALANCE-FINANCIERO.pdf" target="_blank" title="Código Proyecto-09-Balance financiero" rel="noopener"><p>Código Proyecto-09-Balance financiero</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/10_piano.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/10-CODIGO-PIANO.pdf" target="_blank" title="Código Proyecto-10-Piano" rel="noopener"><p>Código Proyecto-10-Piano</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/11_documentacion_tecnica.png" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo</h3>
+              <a href="docs/11-CODIGO-PAGINA-DOCUMENTACION.pdf" target="_blank" title="Código Proyecto-11-Web documentación técnica" rel="noopener"><p>Código Proyecto-11-Web documentación técnica</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/12_horizonte_ciudad.png" alt="">
+            <div class="overlay">
+              <h3>Diseño Freecodecamp</h3>
+              <a href="docs/12-CODIGO-HORIZONTE-CIUDAD.pdf" target="_blank" title="Código Proyecto-12-Horizonte ciudad" rel="noopener"><p>Código Proyecto-12-Horizonte ciudad</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/13_revista.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/13-CODIGO-REVISTA.pdf" target="_blank" title="Código Proyecto-13-Revista" rel="noopener"><p>Código Proyecto-13-Revista</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/14_landing_page.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/14-CODIGO-LANDING-PAGE.pdf" target="_blank" title="Código Proyecto-14-Landing page" rel="noopener"><p>Código Proyecto-14-Landing page</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/15_noria.png" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo</h3>
+              <a href="docs\15-CODIGO-NORIA.pdf" target="_blank" title="Código Proyecto-15-Noria giratoria" rel="noopener"><p>Código Proyecto-15-Noria giratoria</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/16_penguin.png" alt="">
+            <div class="overlay">
+              <h3>Diseño Freecodecamp</h3>
+              <a href="docs/16-CODIGO-PINGÜINO.pdf" target="_blank" title="Código Proyecto-16-Pingüíno Interactivo" rel="noopener"><p>Código Proyecto-16-Pingüíno Interactivo</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/17_portfolio_parte1.png" alt="">
+            <div class="overlay">
+              <h3>Diseño web Responsive con Freecodecamp</h3>
+              <a href="docs/17-CODIGO-PRUEBA-MI-PORTFOLIO.pdf" target="_blank" title="Código Proyecto-17-Pruebas Portfolio" rel="noopener"><p>Código Proyecto-17-Pruebas Portfolio</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/lego.jpg" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo</h3>
+              <p title="Proyecto-18. EN REVISIÓN.">Proyecto-18. EN REVISIÓN.</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/lego.jpg" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo</h3>
+              <p title="Proyecto-19. EN REVISIÓN.">Proyecto-19. EN REVISIÓN.</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/SARA_cruz_roja.png" alt="">
+            <div class="overlay">
+              <h3>Diseño THE BRIDGE</h3>
+              <a href="docs\DIRECCION DE YOUTUBE DEL PROYECTO SARA.pdf" target="_blank" title="Código Proyecto-20-Trabajo fin de Máster: 'SARA'" rel="noopener"><p>Proyecto-20-Trabajo fin de Máster: "SARA"</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/proyectos/Udemy.png" alt="">
+            <div class="overlay">
+              <h3>Diseño UDEMY</h3>
+              <a href="imagenes/proyectos/Udemy.png" target="_blank" title="Código Proyecto-21-Web personal y Python" rel="noopener"><p>Proyecto-21-Web personal y Python</p></a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes/blockchain.jpg" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo. EN REVISIÓN.</h3>
+              <p title="Proyecto-22. EN REVISIÓN.">Proyecto-22</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="imagenes\blockchain.jpg" alt="">
+            <div class="overlay">
+              <h3>Diseño creativo. EN REVISIÓN.</h3>
+              <p title="Proyecto-23. EN REVISIÓN.">Proyecto-23</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--S E C C I O N  C O N T A C T O-->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!--FORMULARIO-->
+          <div class="col">
+            <input type="text" name="nombre" placeholder="Tu Nombre">
+            <input type="text" name="telefono" placeholder="Tu Número de teléfono">
+            <input type="text" name="email" placeholder="Tu Dirección de email">
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button>
+              Enviar Mensaje<i class="fa-regular fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!--MAPA-->
+          <div class="col">
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Madrid <a href="https://www.google.es/maps/place/Madrid/@40.4374862,-4.0091807,10z/data=!4m6!3m5!1s0xd422997800a3c81:0xc436dec1618c2269!8m2!3d40.4167754!4d-3.7037902!16zL20vMDU2X3k?hl=es&entry=ttu" target="_blank" title="Madrid" rel="noopener" alt=""> España</a></p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  +34 669 118 771
+                </li>
+                <li>
+                  <p>Yo no soy como los demás <a href="mailto:loquelojonove1975@gmail.com" target="_blank" title="Email" rel="noopener"><i class="fa-regular fa-envelope" title="Email"></i></p></a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+      <!--FOOTER-->
+      <footer>
+        <a href="#inicio" class="arriba" rel="noopener">
+          <i class="fa-solid fa-angle-up" title="Arriba"></i>
+        </a>
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/eduardo-martinez-martin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a>
+          <a href="https://www.github.com/dashboard" target="_blank" rel="noopener"><i class="fa-brands fa-github" title="GitHub"></i></a>
+          <a href="https://www.facebook.com/emartinezmartin/" target="_blank" rel="noopener"><i class="fa-solid fa-rss" title="Facebook"></i></a>
+        </div>
+        <span &copy; 2024 Todos los derechos reservados | title="Realizado con pasión y margen de mejora por Eduardo Martínez Martín">Hecho por Eduardo Martínez Martín</span>
+      </footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
