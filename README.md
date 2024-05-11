@@ -5,3 +5,5 @@
 ![](Mi-portfolio-web-responsive.png)
 # TODOS los consejos, sugerencias, anotaciones, indicaciones, críticas (siempre que sean CONSTRUCTIVAS), comentarios, etc son y serán BIENVENIDOS.
 ![](Comentarios_y_Sugerencias.jpg)
+
+<p>Yo no soy como los demás<a href="mailto:loquelojonove1975@gmail.com" target="_blank" title="Email" rel="noopener"></p></a>
